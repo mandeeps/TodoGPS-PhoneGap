@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id = "com.mandeepshergill.todogps"
+        versionCode = "1.0"
+        version = "5">
+
+    <name>TodoGPS</name>
+
+    <description>
+        Incomplete
+    </description>
+
+    <author href="mandeepshergill.com" email="me@mandeepshergill.com">
+        Mandeep Shergill
+    </author>
+    
+    <content source="index.html" />
+    <gap:platform name="android" />
+    <preference name="phonegap-version" value="cli-6.0.0" />
+    <preference name="load-url-timeout" value="60000" />
+    <preference name="permissions" value="none"/>
+    <preference name="fullscreen" value="false" />
+    <icon src="static/icon64.png" gap:platform="android" gap:density="ldpi" />
+    <icon src="static/icon128.png" gap:platform="android" gap:density="mdpi" />
+    <icon src="static/icon256.png" gap:platform="android" gap:density="hdpi" />
+    <icon src="static/icon256.png" gap:platform="android" gap:density="xhdpi" />
+
+    <access origin="http://127.0.0.1"/>
+
+</widget>
